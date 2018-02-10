@@ -12,10 +12,14 @@ header img{
   padding-bottom: 69px;
 
 }
+.flex-container{
+  margin: auto;
+}
 header.flex-container{
   display: flex;
   height: 69px;
-  text-align: center;
+
+  margin: auto;
 }
 
 nav{
@@ -28,6 +32,11 @@ nav{
 nav span{
   display: inline-block;
   padding: 30px 20px;
+}
+.teacontents{
+  display: block;
+  margin: 5px;
+  padding: 10px;
 }
 #mission.flex-container{
   display: flex;
@@ -48,4 +57,32 @@ nav span{
   align-items:center;
   font-weight: bold;
   background-color: black;
+}
+#image-container{
+width: 1000px;
+height: 700px;
+
+margin: auto;
+
+}
+.images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.stock img{
+  display: block;
+  height: 200px;
+
+  margin: 10px;
+}
+.stock span{
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+.teacontents{
+  display: block;
+  font-size: 1.5em;
+
 }
